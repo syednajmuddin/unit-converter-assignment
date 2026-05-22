@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Lite Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main-app-box ">
+        <header class="app-header">
+            <h1>Universal Unit Converter</h1>
+        </header>
+        <nav class="category-nav">
+            <label id="cat-label" for="category-select" style="display:none;">Select Category</label>
+            <select id="category-select" class="main-dropdown" aria-labelledby="cat-label">
+                <option value="length">Length</option>
+                <option value="mass">Mass / Weight</option>
+                <option value="temperature">Temperature</option>
+                <option value="digital">Digital Storage</option>
+            </select>
+        </nav>
+        <section class="workspace-area"> 
+        <div class="input-row">
+            <input type="number" id="primary-val" value="1">
+            <select id="primary-unit"></select>
+        </div>
+        <div class="input-row">
+            <input type="number" id="secondary-val" placeholder="0">
+            <select id="secondary-unit"></select>
+        </div>
+        </section>
+        <footer class="formula-box">
+            <span class="formula-tag">Formula</span>
+            <span id="dynamic-scale-text">1 Meter = 100 Centimeters</span>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

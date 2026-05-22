@@ -1,0 +1,78 @@
+   
+body {
+    background-color: #202124;
+    color: #e8eaed;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.main-app-box {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+}
+.main-dropdown {
+    width: 100%;
+    background-color: #303134;
+    color: #e8eaed;
+    border: 1px solid #4d5156;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    outline: none;
+}
+.input-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.input-row input {
+    flex: 1;
+    background-color: #303134;
+    color: #e8eaed;
+    border: 1px solid #4d5156;
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 18px;
+    outline: none;
+}
+.input-row select {
+    flex: 1;
+    background-color: #303134;
+    color: #e8eaed;
+    border: 1px solid #4d5156;
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+}
+.main-dropdown:focus,
+.input-row input:focus,
+.input-row select:focus {
+    border-color: #8ab4f8;
+}
+.formula-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.formula-tag {
+    background-color: #555451;
+    color: #202124;
+    padding: 2px 6px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+#dynamic-scale-text {
+    color: #9aa0a6;
+    
+}
+
+ 
